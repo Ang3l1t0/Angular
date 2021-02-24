@@ -13,3 +13,18 @@ function mostrarCoche(cCoche) {
 }
 mostrarCoche({ marca: 'Renault', modelo: '4' });
 mostrarCoche({ marca: 'Renault', modelo: '4', color: 'Verde' });
+let p1 = { x: 21, y: 22 };
+const miBusqueda = (v, b) => {
+    const result = v.search(b);
+    return result > -1;
+};
+console.log(miBusqueda('hola', 'ola'));
+class Adulto {
+    constructor(pNombre, pEdad, pCoche) {
+        this.nombre = pNombre;
+        this.edad = pEdad;
+        this.coche = pCoche;
+    }
+}
+class Nino {
+}
