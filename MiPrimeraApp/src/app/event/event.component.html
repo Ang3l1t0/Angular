@@ -1,1 +1,10 @@
 <button (click)="onClick()">tocá esta!!!!!</button>
+<select (change)="onChange($event)">
+  <option value="uno">Uno</option>
+  <option value="dos">Dos</option>
+  <option value="tres">Tres</option>
+</select>
+
+<div class="cuadrado" (mouseenter)="onMouseEnter()" (mouseout)="onMouseOut()">
+  {{mensaje}}
+</div>
